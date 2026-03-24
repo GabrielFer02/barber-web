@@ -46,6 +46,12 @@
       "last 1 safari version"
     ]
   },
+  "overrides": {
+    "@types/babel__traverse": "7.11.5"
+  },
+  "resolutions": {
+    "@types/babel__traverse": "7.11.5"
+  },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.5",
     "@types/styled-components": "^5.1.1",
