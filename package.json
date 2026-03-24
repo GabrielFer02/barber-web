@@ -47,10 +47,12 @@
     ]
   },
   "overrides": {
-    "@types/babel__traverse": "7.17.1"
+    "@types/babel__traverse": "7.17.1",
+    "@types/react-router": "5.1.8"
   },
   "resolutions": {
-    "@types/babel__traverse": "7.17.1"
+    "@types/babel__traverse": "7.17.1",
+    "@types/react-router": "5.1.8"
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.1.5",
