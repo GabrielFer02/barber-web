@@ -5,7 +5,6 @@ import {
   FiLock,
   FiCamera,
   FiArrowLeft,
-  FiMinimize,
 } from 'react-icons/fi';
 import { FormHandles } from '@unform/core';
 import { Form } from '@unform/web';
@@ -113,7 +112,7 @@ const Profile: React.FC = () => {
         });
       }
     },
-    [addToast, history],
+    [addToast, history, updateUser],
   );
 
   const handleAvatarChange = useCallback(
